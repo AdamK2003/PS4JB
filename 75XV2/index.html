@@ -235,7 +235,7 @@
 					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
 					'<td align="center" colspan="3"><a href="#" id="disableupdates" class="button" onclick="toggle_payload(\'disableupdates\'); return false" style="width:29%">Disable Updates</a>&nbsp;'+
-					'<a href="#" id="orbistoolbox" class="button" onclick="toggle_payload(\'orbistoolbox\'); return false" style="width:29%">Orbis Toolbox</a>&nbsp;'+
+					'<a href="#" id="enableupdates" class="button" onclick="toggle_payload(\'enableupdates\'); return false" style="width:29%">Enable Updates</a>&nbsp;'+
 					'<a href="#" id="ftp" class="button" onclick="toggle_payload(\'ftp\'); return false" style="width:29%">FTP</a>&nbsp;</td>'+
 					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
@@ -255,7 +255,12 @@
 					'<a href="#" id="todex" class="button" onclick="toggle_payload(\'todex\'); return false" style="width:29%">To-Dex</a>&nbsp;'+
 					'<a href="#" id="disableaslr" class="button" onclick="toggle_payload(\'disableaslr\'); return false" style="width:29%">Disable ASLR</a>&nbsp;</td>'+
 					'</tr><tr><td><br/></td></tr>'+
-					'<tr>'+
+					'<tr>'+ // TODO
+					'<td align="center" colspan="3"><a href="#" id="linux1gb" class="button" onclick="toggle_payload(\'linux1gb\'); return false" style="width:29%">Linux (1GB)</a>&nbsp;'+
+					'<a href="#" id="linux3gb" class="button" onclick="toggle_payload(\'linux3gb\'); return false" style="width:29%">Linux (3GB)</a>&nbsp;'+
+					'<a href="#" id="orbistoolbox" class="button" onclick="toggle_payload(\'orbistoolbox\'); return false" style="width:29%">Orbis Toolbox</a>&nbsp;</td>'+
+					'</tr><tr><td><br/></td></tr>'+
+					'<tr>'+ // /TODO
 					'<td align="center" colspan="3"><a href="#" id="kerneldumper" class="button" onclick="toggle_payload(\'kerneldumper\'); return false" style="width:29%">Kernel Dumper</a>&nbsp;'+
 					'<a href="#" id="webrte" class="button" onclick="toggle_payload(\'webrte\'); return false" style="width:29%">WebRTE</a>&nbsp;'+
 					'<a href="#" id="fancontrol" class="button" onclick="toggle_payload(\'fancontrol\'); return false" style="width:29%">Fan Control</a>&nbsp;</td>'+
@@ -305,7 +310,7 @@
 			<option value="value1">Value1</option>
 		</select>
 		<h1 id="myProgress">
-		  <div id="myBar">0%</div>
+			<div id="myBar">0%</div>
 		</h1>
 		<table id="load" align="center" style="width:600px;margin-top:-10px;">
 		</table>
